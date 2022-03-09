@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: bluemicro840_v1
     shield: dactyl_manuform_5x6_left
-  - board: nice_nano
+  - board: bluemicro840_v1
     shield: dactyl_manuform_5x6_right
