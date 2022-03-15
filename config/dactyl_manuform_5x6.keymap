@@ -27,11 +27,11 @@
 
         default_layer {
             bindings = <
-                &kp ESC   &kp N7 &kp N5 &kp N3 &kp N1 &kp N9              &kp N8 &kp N0 &kp N2    &kp N4  &kp N6   &kp BSPC
-                &kp TAB   &kp Q  &kp W   &kp F  &kp P  &kp B              &kp J  &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
-                &kp LSHFT &kp A  &kp R   &kp S  &kp T  &kp G              &kp M  &kp N  &kp E     &kp I   &kp O &kp SQT
-                &kp LCTRL &kp Z  &kp X   &kp C  &kp D  &kp V              &kp K  &kp H  &kp COMMA &kp DOT &kp FSLH &kp BSLH
-                          &kp ESC &kp EQUAL                                                       &kp MINUS &kp SQT
+                &kp ESC &kp GRAVE &kp LBKT &kp LC(E) &kp LPAR &kp EXCL      &kp ASTRK &kp RPAR  &kp AT    &kp RBKT &kp DEL  &kp BSPC
+                &kp TAB   &kp Q  &kp W     &kp F    &kp P   &kp B              &kp J  &kp L    &kp U     &kp Y    &kp SEMI &kp MINUS
+                &kp LCTRL &kp A  &kp R     &kp S    &kp T   &kp G              &kp M  &kp N    &kp E     &kp I    &kp O    &kp SQT
+                &kp LSHFT &kp Z  &kp X     &kp C    &kp D   &kp V              &kp K  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
+                                 &kp ESC   &kp EQUAL                                           &kp MINUS &kp SQT
                                         &mo LWR   &kp SPACE                      &skq LSHFT &mo RSE
                                                   &kp LCTRL &mo ADJ    &kp LCTRL &kp RET
                                                   &kp TAB   &kp LALT   &kp LGUI  &kp BSPC
@@ -40,11 +40,11 @@
 
         lower_layer {
             bindings = <
-                &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                     &kp F6 &kp F7   &kp F8   &kp F9 &kp F10   &kp F11
-                &trans  &trans    &trans    &kp LC(E) &kp CAPS  &kp LC(B)      &kp PG_UP &kp HOME  &kp UP    &kp END   &kp DEL &trans
+                &kp F12 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5         &kp F6    &kp F7    &kp F8    &kp F9    &kp F10  &kp F11
+                &trans  &trans    &trans    &kp LC(E) &kp CAPS  &kp LC(B)      &kp PG_UP &kp HOME  &kp UP    &kp END   &kp DEL  &trans
                 &trans  &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL &kp LC(S)      &kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT &kp BSPC &trans
-                &trans  &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &trans         &kp INS   &trans    &trans    &trans    &trans &trans
-                               &trans &trans                                                       &trans &trans
+                &trans  &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &trans         &kp INS   &trans    &trans    &trans    &trans   &trans
+                               &trans &trans                                                       &trans    &trans
                                             &trans   &trans                         &trans    &mo ADJ
                                                      &trans    &trans       &trans  &trans
                                                      &trans    &trans       &trans  &trans
@@ -56,7 +56,7 @@
                 &trans  &trans    &trans    &trans     &trans    &trans                        &trans    &trans    &trans    &trans    &trans    &trans
                 &trans  &kp AMPS  &kp PRCNT &kp HASH   &kp LPAR  &kp EXCL                      &kp ASTRK &kp RPAR  &kp AT    &kp DLLR  &kp CARET &kp K_VOL_UP
                 &trans  &kp N7    &kp N5    &kp N3     &kp N1    &kp N9                        &kp N8    &kp N0    &kp N2    &kp N4    &kp N6    &kp K_VOL_DN
-                &trans  &kp GRAVE &kp LBKT  &kp RBKT   &kp UNDER &kp EQUAL                     &kp PLUS  &kp MINUS &trans    &trans    &kp BSLH  &kp K_MUTE
+                &trans  &kp TILDA &kp LBKT  &kp RBKT   &kp UNDER &kp EQUAL                     &kp PLUS  &kp MINUS &trans    &trans    &kp BSLH  &kp K_MUTE
                                &trans &trans                                                                       &trans    &trans
                                             &mo ADJ  &trans                         &trans    &trans
                                                      &trans    &trans       &trans  &trans
