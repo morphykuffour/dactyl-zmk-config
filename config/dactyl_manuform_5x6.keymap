@@ -31,10 +31,10 @@
                 &kp TAB   &kp Q  &kp W     &kp F    &kp P   &kp B              &kp J  &kp L    &kp U     &kp Y    &kp SEMI &kp MINUS
                 &kp LCTRL &kp A  &kp R     &kp S    &kp T   &kp G              &kp M  &kp N    &kp E     &kp I    &kp O    &kp SQT
                 &kp LSHFT &kp Z  &kp X     &kp C    &kp D   &kp V              &kp K  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
-                                 &kp ESC   &kp EQUAL                                           &kp GRAVE &kp SQT
-                                        &mo LWR   &kp SPACE                      &skq LSHFT &mo RSE
+                                 &kp LBKT   &kp RBKT                                           &kp GRAVE &kp SQT
+                                        &mo LWR   &kp SPACE                      &kp BSPC &mo RSE
                                                   &kp LCTRL &mo ADJ    &kp LCTRL &kp RET
-                                                  &kp TAB   &kp LALT   &kp LGUI  &kp BSPC
+                                                  &kp TAB   &kp LALT   &kp LGUI  &skq LSHFT
             >;
         };
 
