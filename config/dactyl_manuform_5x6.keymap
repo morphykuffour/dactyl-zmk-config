@@ -9,7 +9,7 @@
 #define LWR 1
 #define RSE 2
 #define ADJ 3
-#define QWERTY 4
+#define QWE 4
 
 / {
   behaviors {
@@ -35,7 +35,7 @@
                                  &kp LBKT   &kp RBKT                                           &kp GRAVE &kp SQT
                                         &mo LWR   &kp SPACE                      &kp BSPC &mo RSE
                                                   &kp LCTRL &mo ADJ    &kp RET &kp LCTRL 
-                                                  &kp TAB   &kp LALT   &kp LGUI  &to QWERTY
+                                                  &kp TAB   &kp LALT   &kp LGUI  &to QWE
             >;
         };
 
