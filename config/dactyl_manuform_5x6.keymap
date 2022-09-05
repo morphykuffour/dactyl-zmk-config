@@ -18,7 +18,7 @@
       label = "STICKY_KEY_QUICK_RELEASE";
       #binding-cells = <1>;
       bindings = <&kp>;
-      release-after-ms = <500>;
+      release-after-ms = <50000>;
       quick-release;
     };
   };
@@ -31,11 +31,11 @@
                 &kp ESC   &kp N7 &kp N8    &kp N9   &kp N0  &kp N5             &kp N6 &kp N1   &kp N2    &kp N3   &kp N4   &kp DEL 
                 &kp TAB   &kp Q  &kp W     &kp F    &kp P   &kp B              &kp J  &kp L    &kp U     &kp Y    &kp SEMI &kp MINUS
                 &kp LCTRL &kp A  &kp R     &kp S    &kp T   &kp G              &kp M  &kp N    &kp E     &kp I    &kp O    &kp SQT
-                &kp LSHFT &kp Z  &kp X     &kp C    &kp D   &kp V              &kp K  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
+                &skq LSHFT &kp Z  &kp X     &kp C    &kp D   &kp V              &kp K  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
                                  &kp LBKT   &kp RBKT                                           &kp GRAVE &kp SQT
                                         &mo LWR   &kp SPACE                      &kp BSPC &mo RSE
-                                                  &kp LCTRL &mo ADJ    &kp RET &kp LCTRL 
-                                                  &kp TAB   &kp LALT   &kp LGUI  &to QWE
+                                                  &skq LCTRL &mo ADJ    &kp RET &skq LCTRL 
+                                                  &kp TAB   &skq LALT   &skq LGUI  &to QWE
             >;
         };
 
