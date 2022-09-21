@@ -51,7 +51,7 @@
                 &kp LCTRL &kp A  &kp R     &kp S    &kp T   &kp G              &kp M  &kp N    &kp E     &kp I    &kp O    &kp SQT
                 &skq LSHFT &kp Z  &kp X     &kp C    &kp D   &kp V              &kp K  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
                                  &kp LBKT   &kp RBKT                                           &kp GRAVE &kp SQT
-                                        &mo LWR   &kp SPACE                      &kp BSPC &mo RSE
+                                        &mo LWR   &mt LC(LS(LALT)) SPACE                      &kp BSPC &mo RSE
                                                   &skq LCTRL &mo ADJ    &kp RET &skq LCTRL 
                                                   &kp TAB   &skq LALT   &skq LGUI  &to QWE
             >;
